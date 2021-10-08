@@ -8,27 +8,95 @@
 header{
     border-bottom: 2px solid #999;
 }
-.navbar-brand h2{
+p{
+    text-align: justify;
+}
+a{
+    color: #111;
+}
+.navbar-brand {
     text-align: center;
     display: block;
     font-size: 20px;
     line-height: 36px;
-    margin: 0 auto;
+    margin: 0 auto;   
+    font-weight: 700;
 }
 .navbar-collapse label, li{
     font-size: 14px;
     line-height: 24px;
 }
+.main-content{
+    margin-top: 10px;
+}
+.title{
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.title::after{
+    background: #999;
+    content: '';
+    height: 3px;
+    width: 120px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    transform: translate(-50%);
+    left: 50%;
+}
+p{
+    font-size: 14px;
+}
+
+section ul li{
+    text-align: justify;
+    margin: 0 5px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 @media all and (min-width: 768px) {
-    .navbar-brand h2{
-        font-size: 26px;
+    .navbar-brand {
+        font-size: 28px;
         line-height: 40px;
     }
     .navbar-collapse label, li{
         font-size: 16px;
         line-height: 26px;
     }
+
+    .title{
+        text-align: left;
+        font-size: 24px;
+        line-height: 50px;
+    }
+    .title::after{
+        left: 7%;
+        transform: translate(0);
+    }
+    p{
+        font-size: 16px;
+    }
+    section ul li{
+        margin: 0 10px;
+        font-size: 16px;
+    }
+    
 }
