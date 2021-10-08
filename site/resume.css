@@ -50,23 +50,26 @@ a{
 p{
     font-size: 14px;
 }
-
 section ul li{
     text-align: justify;
     margin: 0 5px;
     font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
+section ul b{
+    margin-left: 15px;
+}
+footer strong{
+    display: block;
+    float: left;
+    width: 165px;
+}
+footer p {
+    font-size: 13px;
+}
+footer p::before{
+    content: ':';
+    font-weight: 900;
+}
 
 
 
@@ -96,6 +99,12 @@ section ul li{
     }
     section ul li{
         margin: 0 10px;
+        font-size: 16px;
+    }
+    footer strong{
+        width: 250px;
+    }
+    footer p {
         font-size: 16px;
     }
     
