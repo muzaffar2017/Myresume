@@ -3,4 +3,32 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    color: #111;
+}
+header{
+    border-bottom: 2px solid #999;
+}
+.navbar-brand h2{
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    line-height: 36px;
+    margin: 0 auto;
+}
+.navbar-collapse label, li{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+
+@media all and (min-width: 768px) {
+    .navbar-brand h2{
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .navbar-collapse label, li{
+        font-size: 16px;
+        line-height: 26px;
+    }
 }
