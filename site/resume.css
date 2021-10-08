@@ -91,7 +91,7 @@ footer p::before{
         line-height: 50px;
     }
     .title::after{
-        left: 7%;
+        left: 6%;
         transform: translate(0);
     }
     p{
