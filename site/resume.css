@@ -67,7 +67,7 @@ footer p {
     font-size: 13px;
 }
 footer p::before{
-    content: ':';
+    content: ': ';
     font-weight: 900;
 }
 
