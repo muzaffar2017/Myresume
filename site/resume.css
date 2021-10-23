@@ -67,7 +67,7 @@ footer p {
     font-size: 13px;
 }
 footer p::before{
-    content: ': ';
+    content: ':';
     font-weight: 900;
 }
 
@@ -91,7 +91,7 @@ footer p::before{
         line-height: 50px;
     }
     .title::after{
-        left: 6%;
+        left: 2%;
         transform: translate(0);
     }
     p{
